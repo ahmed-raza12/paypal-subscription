@@ -10,6 +10,9 @@ exports.index = function (req, res) {
     res.render('index', {title: 'Express'});
 };
 
+exports.pakage2 = function (req, res) {
+    res.render('pakage2', {title: 'Express'});
+};
 /*
  * SDK configuration
  */
